@@ -4,9 +4,11 @@
 
 Wes Bos' awesome and FREE JavaScript course Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
-This is what I have pulled from his for the starter files:
+This is what I have pulled from his repo for the starter files:
 
-- [ ] 01 - JavaScript Drum Kit
+## Current progress
+
+- [x] 01 - JavaScript Drum Kit - [Example Here](https://spences10.github.io/JavaScript30/src/01%20-%20JavaScript%20Drum%20Kit/) 
 - [ ] 02 - JS + CSS Clock
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
