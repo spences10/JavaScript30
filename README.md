@@ -13,7 +13,7 @@ This is what I have pulled from his repo for the starter files:
 - [x] 03 - CSS Variables - [Completed Example Here](https://spences10.github.io/JavaScript30/src/03%20-%20CSS%20Variables/)
 - [x] 04 - Array Cardio Day 1 - [Completed Example Here](https://spences10.github.io/JavaScript30/src/04%20-%20Array%20Cardio%20Day%201/)
 - [x] 05 - Flex Panel Gallery - [Completed Example Here](https://spences10.github.io/JavaScript30/src/05%20-%20Flex%20Panel%20Gallery/)
-- [ ] 06 - Type Ahead
+- [x] 06 - Type Ahead - [Completed Example Here](https://spences10.github.io/JavaScript30/src/06%20-%20Type%20Ahead/)
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
