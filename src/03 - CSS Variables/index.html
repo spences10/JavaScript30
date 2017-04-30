@@ -8,6 +8,7 @@
   <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
 
   <div class="controls">
+    <!-- Add suffix for the inputs to be used in handleUpdate -->
     <label for="spacing">Spacing:</label>
     <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
@@ -21,6 +22,26 @@
   <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
 
   <style>
+
+    /* declare variables on some sort of element or root in this case */
+    :root {
+      --base: yellow;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    /* now with the variables defined we can use them */
+    /* use them like var(--spacing) */
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+
+    /* apply variables to the hilight too */
+    .hl {
+      color: var(--base);
+    }
 
     /*
       misc styles, nothing to do with CSS variables
@@ -53,6 +74,19 @@
   </style>
 
   <script>
+    // select all inouts on page, this will return a node list, not an array  
+    const inputs = document.querySelectorAll('.controls input')
+
+    function handleUpdate() {
+      const suffix = this.dataset.sizing || ''
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
+    }
+
+    // listen for change events on each input
+    inputs.forEach(input => input.addEventListener('change', handleUpdate))
+    // also for the mouse move
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate))
+
   </script>
 
 </body>
