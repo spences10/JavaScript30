@@ -12,7 +12,7 @@ This is what I have pulled from his repo for the starter files:
 - [x] 02 - JS + CSS Clock - [Completed Example Here](https://spences10.github.io/JavaScript30/src/02%20-%20JS%20%2B%20CSS%20Clock/)
 - [x] 03 - CSS Variables - [Completed Example Here](https://spences10.github.io/JavaScript30/src/03%20-%20CSS%20Variables/)
 - [x] 04 - Array Cardio Day 1 - [Completed Example Here](https://spences10.github.io/JavaScript30/src/04%20-%20Array%20Cardio%20Day%201/)
-- [ ] 05 - Flex Panel Gallery
+- [x] 05 - Flex Panel Gallery - [Completed Example Here](https://spences10.github.io/JavaScript30/src/05%20-%20Flex%20Panel%20Gallery/)
 - [ ] 06 - Type Ahead
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
