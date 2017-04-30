@@ -8,8 +8,8 @@ This is what I have pulled from his repo for the starter files:
 
 ## Current progress
 
-- [x] 01 - JavaScript Drum Kit - [Example Here](https://spences10.github.io/JavaScript30/src/01%20-%20JavaScript%20Drum%20Kit/) 
-- [ ] 02 - JS + CSS Clock
+- [x] 01 - JavaScript Drum Kit - [Completed Example Here](https://spences10.github.io/JavaScript30/src/01%20-%20JavaScript%20Drum%20Kit/) 
+- [x] 02 - JS + CSS Clock - [Completed Example Here](https://spences10.github.io/JavaScript30/src/02%20-%20JS%20%2B%20CSS%20Clock/)
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
