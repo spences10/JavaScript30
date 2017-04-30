@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Orbitron" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <form class="search-form">
-    <input type="text" class="search" placeholder="City or State">
+    <input type="text" class="search" placeholder="Arnie Quote">
     <ul class="suggestions">
-      <li>Filter for a city</li>
-      <li>or a state</li>
+      <li>Filter for a quote</li>
+      <li>or a Movie</li>
     </ul>
   </form>
-<script>
-const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+  <script>
+    const endpoint =
+      'https://gist.githubusercontent.com/spences10/ceee092f6fed36559036c94682b7a5f7/raw/7a27570759834ee454ee380ca42ebd47dc55e932/arnold_quotes.json'
 
-</script>
-  </body>
+    const quotes = []
+
+    // get data from endpoint into array,
+    // first fetch the data
+    fetch(endpoint)
+      .then(blob => blob.json())
+      .then(data => quotes.push(...data))
+  
+    function findMatches(wordToMatch, quotes) {
+      return quotes.filter(match => {
+        const regex = new RegExp(wordToMatch, 'gi')
+        return match.quote.match(regex) || match.movie.match(regex)
+      })
+    }
+
+    function displayMatches() {
+      const matchArray = findMatches(this.value, quotes)
+      const html = matchArray.map(match => {
+        const regex = new RegExp(this.value, 'gi')
+        const quoteName = match.quote.replace(regex, `<span class="hl">${this.value}</span>`)
+        const movieName = match.movie.replace(regex, `<span class="hl">${this.value}</span>`)
+        return `
+        <li>
+          <span class="name">${quoteName}, ${movieName}</span>
+          <span class="movie">${match.character}</span>
+        </li>
+        `
+      }).join('')
+      suggestions.innerHTML = html
+    }
+
+    const searchInput = document.querySelector('.search')
+    const suggestions = document.querySelector('.suggestions')
+
+    searchInput.addEventListener('change', displayMatches)
+    searchInput.addEventListener('keyup', displayMatches)
+
+  </script>
+</body>
+
 </html>
