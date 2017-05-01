@@ -11,6 +11,46 @@
 </head>
 
 <body>
+
+    <!-- add some key niceness -->
+    
+    <div class="title">
+    <h1>Enter the Key Sequence</h1>
+    </div>
+
+    <div class="keys">
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-up"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-up"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-down"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-down"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-left"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-right"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-left"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x fa-arrow-right"></kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x">B</kbd>
+    </div>
+    <div class="key">
+      <kbd class="fa fa-2x">A</kbd>
+    </div>
+  </div>
+
   <script>
 
     const pressed = []
@@ -22,7 +62,7 @@
       pressed.splice(-secretCode.length -1, pressed.length - secretCode.length)
       if(pressed.join('').includes(secretCode)) {
         cornify_add()
-        setInterval(cornify_add, 5000);
+        setInterval(cornify_add, 2000);
       }
       console.log(pressed)
     })
