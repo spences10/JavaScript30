@@ -17,8 +17,8 @@ This is what I have pulled from his repo for the starter files:
 - [x] 07 - Array Cardio Day 2 - [Completed Example Here](https://spences10.github.io/JavaScript30/src/07%20-%20Array%20Cardio%20Day%202/)
 - [x] 08 - Fun with HTML5 Canvas - [Completed Example Here](https://spences10.github.io/JavaScript30/src/08%20-%20Fun%20with%20HTML5%20Canvas/)
 - [x] 09 - Dev Tools Domination - [Completed Example Here](https://spences10.github.io/JavaScript30/src/09%20-%20Dev%20Tools%20Domination/)
-- [ ] 10 - Hold Shift and Check Checkboxes - [Completed Example Here](https://spences10.github.io/JavaScript30/src/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
-- [ ] 11 - Custom Video Player
+- [x] 10 - Hold Shift and Check Checkboxes - [Completed Example Here](https://spences10.github.io/JavaScript30/src/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
+- [x] 11 - Custom Video Player - [Completed Example Here](https://spences10.github.io/JavaScript30/src/11%20-%20Custom%20Video%20Player/)
 - [ ] 12 - Key Sequence Detection
 - [ ] 13 - Slide in on Scroll
 - [ ] 13 - Slide in on Scroll
