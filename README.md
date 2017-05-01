@@ -16,7 +16,7 @@ This is what I have pulled from his repo for the starter files:
 - [x] 06 - Type Ahead - [Completed Example Here](https://spences10.github.io/JavaScript30/src/06%20-%20Type%20Ahead/)
 - [x] 07 - Array Cardio Day 2 - [Completed Example Here](https://spences10.github.io/JavaScript30/src/07%20-%20Array%20Cardio%20Day%202/)
 - [x] 08 - Fun with HTML5 Canvas - [Completed Example Here](https://spences10.github.io/JavaScript30/src/08%20-%20Fun%20with%20HTML5%20Canvas/)
-- [ ] 09 - Dev Tools Domination
+- [x] 09 - Dev Tools Domination - [Completed Example Here](https://spences10.github.io/JavaScript30/src/09%20-%20Dev%20Tools%20Domination/)
 - [ ] 10 - Hold Shift and Check Checkboxes
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
