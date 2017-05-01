@@ -32,19 +32,26 @@
     //   }
     // });
 
+    // use curly braces to have the var name printed in dev console too 👍
     const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
 
     console.log({isAdult});
+
     // Array.prototype.every() // is everyone 19?
-
     const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
-    console.log({allAdults});
 
+    console.log({allAdults});
+    
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
+    // const comment = comments.find(function(comment) {
+    //   if(comment.id === 823423) {
+    //     return true
+    //   }
+    // })
 
-
+    // now as a snappy one liner! 
     const comment = comments.find(comment => comment.id === 823423);
 
     console.log(comment);
@@ -56,11 +63,13 @@
     console.log(index);
 
     // comments.splice(index, 1);
+    // console.table(comments)
 
     const newComments = [
       ...comments.slice(0, index),
       ...comments.slice(index + 1)
     ];
+    console.table(comments)
 
   </script>
 </body>
