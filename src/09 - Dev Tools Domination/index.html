@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Console Tricks!</title>
+  <title>Console Tricks!🤸‍</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Orbitron" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
-  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+  <h1>Chrome Dev Tools</h1>
 
+  <h3>Todays lesson focusses on Chrome Dev tools, the only visual part is the next paragraph</h3>
+  <p onClick="makeGreen()">I'm some JavaScript to debug, click me</p>
+  
+  <p>Right click and select inspect element from the context menu</p>
+  <p>Then select the 'Break on... attribute modifications option:</p>
+
+  <img src="img/screnshot.png" alt=""> 
+
+  <p>Open up the browser dev tools to see the rest of the work, some console output yo!</p>
+  
   <script>
     const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
 
@@ -17,29 +30,71 @@
       p.style.fontSize = '50px';
     }
 
+    // all the console.things
+
     // Regular
+    console.log('hi')
 
     // Interpolated
-
+    console.log('hello I am a %s string', '🦄')
+    // now with ES6 back ticks
+    const someVar = '😎'
+    console.log(`Hello I am a ${someVar} string`)
+    
     // Styled
+    console.log('%c I am some styled text', 'font-size:25px; color:red')
 
     // warning!
+    console.warn('Oh noo Warn!!')
 
     // Error :|
-
+    console.error('Poop!')
+    
     // Info
+    console.info('Something informative for you.')
 
     // Testing
+    // console.assert(1 === 1, 'That is wrogn!') // this message won't show
+    const p = document.querySelector('p')
+
+    console.assert(p.classList.contains('ouch'), 'Thats is wrong!')
 
     // clearing
+    // console.clear() // clear the console log!!
 
     // Viewing DOM Elements
+    console.log(p)
+    console.dir(p)
 
     // Grouping together
+    dogs.forEach(dog => {
+      console.group(`${dog.name}`) // you can also use group collapsed
+      console.log(`This is ${dog.name}`)
+      console.log(`${dog.name} is  ${dog.age} years old`)
+      console.log(`${dog.name} is  ${dog.age * 7 } dog years old`)
+      console.groupEnd(`${dog.name}`)
+    })
 
     // counting
+    console.count('Scott')
+    console.count('Dave')
+    console.count('Scott')
+    console.count('Scott')
+    console.count('Dave')
+    console.count('Scott')
+    console.count('Scott')
 
     // timing
+    console.time('fetching data')
+    fetch('https://api.github.com/users/spences10')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data')
+        console.log(data)
+      })
+    
+    // lastly table
+    console.table(dogs) // 👍
 
   </script>
 </body>
