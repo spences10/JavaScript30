@@ -22,7 +22,7 @@ This is what I have pulled from his repo for the starter files:
 - [x] 12 - Key Sequence Detection - [Completed Example Here](https://spences10.github.io/JavaScript30/src/12%20-%20Key%20Sequence%20Detection/)
 - [x] 13 - Slide in on Scroll - [Completed Example Here](https://spences10.github.io/JavaScript30/src/13%20-%20Slide%20in%20on%20Scroll/)
 - [x] 14 - JavaScript References VS Copying - [Completed Example Here](https://spences10.github.io/JavaScript30/src/14%20-%20JavaScript%20References%20VS%20Copying/)
-- [ ] 15 - LocalStorage
+- [x] 15 - LocalStorage - [Completed Example Here](https://spences10.github.io/JavaScript30/src/15%20-%20LocalStorage/)
 - [ ] 16 - Mouse Move Shadow
 - [ ] 17 - Sort Without Articles
 - [ ] 18 - Adding Up Times with Reduce
