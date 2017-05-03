@@ -31,11 +31,11 @@ This is what I have pulled from his repo for the starter files:
 - [x] 21 - Geolocation - [Completed Example Here](https://spences10.github.io/JavaScript30/src/21%20-%20Geolocation/)
 - [x] 22 - Follow Along Link Highlighter - [Completed Example Here](https://spences10.github.io/JavaScript30/src/22%20-%20Follow%20Along%20Link%20Highlighter/)
 - [x] 23 - Speech Synthesis - [Completed Example Here](https://spences10.github.io/JavaScript30/src/23%20-%20Speech%20Synthesis/)
-- [ ] 24 - Sticky Nav
-- [ ] 25 - Event Capture, Propagation, Bubbling and Once
-- [ ] 26 - Stripe Follow Along Nav
-- [ ] 27 - Click and Drag
-- [ ] 28 - Video Speed Controller
+- [x] 24 - Sticky Nav - [Completed Example Here](https://spences10.github.io/JavaScript30/src/24%20-%20Sticky%20Nav/)
+- [x] 25 - Event Capture, Propagation, Bubbling and Once - [Completed Example Here](https://spences10.github.io/JavaScript30/src/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/)
+- [x] 26 - Stripe Follow Along Nav - [Completed Example Here](https://spences10.github.io/JavaScript30/src/26%20-%20Stripe%20Follow%20Along%20Nav/)
+- [x] 27 - Click and Drag - [Completed Example Here](https://spences10.github.io/JavaScript30/src/27%20-%20Click%20and%20Drag/)
+- [x] 28 - Video Speed Controller - [Completed Example Here](https://spences10.github.io/JavaScript30/src/28%20-%20Video%20Speed%20Controller/)
 - [ ] 29 - Countown Timer
 - [ ] 30 - Whack A Mole
 
