@@ -24,13 +24,13 @@ This is what I have pulled from his repo for the starter files:
 - [x] 14 - JavaScript References VS Copying - [Completed Example Here](https://spences10.github.io/JavaScript30/src/14%20-%20JavaScript%20References%20VS%20Copying/)
 - [x] 15 - LocalStorage - [Completed Example Here](https://spences10.github.io/JavaScript30/src/15%20-%20LocalStorage/)
 - [x] 16 - Mouse Move Shadow - [Completed Example Here](https://spences10.github.io/JavaScript30/src/16%20-%20Mouse%20Move%20Shadow/)
-- [x] 17 - Sort Without Articles - [Completed Example Here](https://spences10.github.io/JavaScript30/src/17%20-%20Sort%20Without%20Articles/)19%20-%20Webcam%20Fun
+- [x] 17 - Sort Without Articles - [Completed Example Here](https://spences10.github.io/JavaScript30/src/17%20-%20Sort%20Without%20Articles/)
 - [x] 18 - Adding Up Times with Reduce - [Completed Example Here](https://spences10.github.io/JavaScript30/src/18%20-%20Adding%20Up%20Times%20with%20Reduce/)
 - [x] 19 - Webcam Fun - [Completed Example Here](https://spences10.github.io/JavaScript30/src/19%20-%20Webcam%20Fun/)
-- [ ] 20 - Speech Detection
-- [ ] 21 - Geolocation
-- [ ] 22 - Follow Along Link Highlighter
-- [ ] 23 - Speech Synthesis
+- [x] 20 - Speech Detection - [Completed Example Here](https://spences10.github.io/JavaScript30/src/20%20-%20Speech%20Detection/)
+- [x] 21 - Geolocation - [Completed Example Here](https://spences10.github.io/JavaScript30/src/21%20-%20Geolocation/)
+- [x] 22 - Follow Along Link Highlighter - [Completed Example Here](https://spences10.github.io/JavaScript30/src/22%20-%20Follow%20Along%20Link%20Highlighter/)
+- [x] 23 - Speech Synthesis - [Completed Example Here](https://spences10.github.io/JavaScript30/src/23%20-%20Speech%20Synthesis/)
 - [ ] 24 - Sticky Nav
 - [ ] 25 - Event Capture, Propagation, Bubbling and Once
 - [ ] 26 - Stripe Follow Along Nav
