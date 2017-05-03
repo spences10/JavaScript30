@@ -24,9 +24,9 @@ This is what I have pulled from his repo for the starter files:
 - [x] 14 - JavaScript References VS Copying - [Completed Example Here](https://spences10.github.io/JavaScript30/src/14%20-%20JavaScript%20References%20VS%20Copying/)
 - [x] 15 - LocalStorage - [Completed Example Here](https://spences10.github.io/JavaScript30/src/15%20-%20LocalStorage/)
 - [x] 16 - Mouse Move Shadow - [Completed Example Here](https://spences10.github.io/JavaScript30/src/16%20-%20Mouse%20Move%20Shadow/)
-- [x] 17 - Sort Without Articles - [Completed Example Here](https://spences10.github.io/JavaScript30/src/17%20-%20Sort%20Without%20Articles/)
-- [ ] 18 - Adding Up Times with Reduce
-- [ ] 19 - Webcam Fun
+- [x] 17 - Sort Without Articles - [Completed Example Here](https://spences10.github.io/JavaScript30/src/17%20-%20Sort%20Without%20Articles/)19%20-%20Webcam%20Fun
+- [x] 18 - Adding Up Times with Reduce - [Completed Example Here](https://spences10.github.io/JavaScript30/src/18%20-%20Adding%20Up%20Times%20with%20Reduce/)
+- [x] 19 - Webcam Fun - [Completed Example Here](https://spences10.github.io/JavaScript30/src/19%20-%20Webcam%20Fun/)
 - [ ] 20 - Speech Detection
 - [ ] 21 - Geolocation
 - [ ] 22 - Follow Along Link Highlighter
